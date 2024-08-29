@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>iOS_HelloEyes</artifactId>
+  <artifactId>HelloEyes_AndroidFramework</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>iOS_HelloEyes</name>
+  <name>HelloEyes_AndroidFramework</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -58,14 +58,12 @@
       <version>2.10.3</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
     <dependency>
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
       <version>4.1.7</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>

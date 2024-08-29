@@ -9,20 +9,30 @@
         <test name = "tests">
 
         <classes>
-            <!--<class name="baseTest.BaseTest">
-            <methods>
-                <include name="testSplashScreen"/>
-            </methods>&ndash;&gt;
 
-        </class>-->
             <class name="tests.SignUpTest">
             <methods>
+                <include name="testSplashScreen"/>
                 <include name="testValidSignUp"/>
                 <include name="testInvalidEmailSignUp"/>
-                <!--<include name="testWeakPasswordSignUp"/>
-                <include name="testDuplicateEmail"/>-->
+                <include name="testWeakPasswordSignUp"/>
+                <include name="testDuplicateEmail"/>
             </methods>
-        </class>
+            </class>
+
+            <class name="tests.SignInTest">
+                <methods>
+                    <include name="testValidSignIn"/>
+                    <include name="testInvalidEmailFormat"/>
+                    <include name="testIncorrectPassword"/>
+                    <include name="testEmptyEmail"/>
+                    <include name="testEmptyPassword"/>
+                    <include name="testEmptyEmailAndPassword"/>
+                    <include name="testUnregisteredEmail"/>
+                    <include name="testCaseSensitivityInEmail"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>
